@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "10.0"
 
   s.source = { :git => "https://github.com/RomanPodymov/notino-assignment.git", :tag => '1.0.0' }
-  s.resources = ["iOS/Resources/heart-bold.pdf", "iOS/Resources/heart.pdf", "iOS/Resources/ico-star-grey.pdf", "iOS/Resources/ico-star-pink.pdf"]
   s.resource_bundles = {
     "NotinoAssets" => ["iOS/Resources/heart-bold.pdf", "iOS/Resources/heart.pdf", "iOS/Resources/ico-star-grey.pdf", "iOS/Resources/ico-star-pink.pdf"]
   }
