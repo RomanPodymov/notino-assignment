@@ -21,7 +21,7 @@ public class NotinoAssets {
     public static let heart: UIImage = {
         let url = resourceBundle.url(forResource: "heart", withExtension: "pdf")
         return drawPDFfromURL(url: url!)!
-    }
+    }()
 
     public static let heartBold: UIImage = {
         let url = resourceBundle.url(forResource: "heart-bold", withExtension: "pdf")
